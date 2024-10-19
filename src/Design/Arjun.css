@@ -1,0 +1,123 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+#ar {
+    width: 100vw;
+    height: 90vh;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+
+#Adv1d2 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(210, 28, 28);
+    overflow: hidden;
+}
+
+
+#advideo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+/* Mobile devices (up to 767px) */
+@media (max-width: 767px) {
+    #ar {
+        width: 100vw;
+        height: 50vh; /* Adjusted height for mobile */
+        background-color: black;
+        overflow-x: hidden;
+    }
+
+    #Adv1d2 {
+        width: 100%;
+        height: 100%;
+        background-color: rgb(210, 28, 28);
+        overflow: hidden;
+    }
+
+    #advideo {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+/* Tablet devices (768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    #ar {
+        width: 100vw;
+        height: 70vh; /* Increased height for tablet */
+        background-color: black;
+        overflow-x: hidden;
+    }
+
+    #Adv1d2 {
+        width: 100%;
+        height: 100%;
+        background-color: rgb(210, 28, 28);
+        overflow: hidden;
+    }
+
+    #advideo {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+/* Laptop devices (1025px to 1440px) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    #ar {
+        width: 100vw;
+        height: 85vh; /* Adjusted height for laptop */
+        background-color: black;
+        overflow-x: hidden;
+    }
+
+    #Adv1d2 {
+        width: 100%;
+        height: 100%;
+        background-color: rgb(210, 28, 28);
+        overflow: hidden;
+    }
+
+    #advideo {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+/* TV screens (above 1921px) */
+@media (min-width: 1921px) {
+    #ar {
+        width: 100vw;
+        height: 90vh; /* Full height for large TV screens */
+        background-color: black;
+        overflow-x: hidden;
+    }
+
+    #Adv1d2 {
+        width: 100%;
+        height: 100%;
+        background-color: rgb(210, 28, 28);
+        overflow: hidden;
+    }
+
+    #advideo {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+

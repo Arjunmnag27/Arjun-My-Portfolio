@@ -1,0 +1,181 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#Adv3 {
+    width: 100vw;
+    height: 85vh;
+    background: url(../../public/images/21.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 1px;
+    position: relative;
+    
+}
+
+#sp3 {
+    /* display: block; */
+    font-size: 25px;
+    color: rgb(238, 238, 244);
+    font-weight: bolder;
+    font-family: 'Garamond', 'Georgia', 'Times New Roman', serif;
+    padding-left: 25px;
+    padding-right: 45%;
+    padding-top: 3%;
+    text-align: justify;
+    line-height: 45px;
+    text-indent: 50px;
+}
+
+#sp3a{
+    /* display: block; */
+    font-size: 25px;
+    color: rgb(238, 238, 244);
+    font-weight: bolder;
+    font-family: 'Garamond', 'Georgia', 'Times New Roman', serif;
+    padding-left: 25px;
+    padding-right: 4%;
+    padding-top: 3%;
+    text-align: justify;
+    line-height: 45px;
+    text-indent: 50px;
+}
+
+
+#advi1 {
+    width: 15%;
+    height: auto;
+    position: absolute;
+    top: 50px;
+    left: 70%;
+}
+
+
+/* Mobile devices (up to 767px) */
+@media (max-width: 767px) {
+    #Adv3 {
+        width: 100vw;
+        height: 85vh;
+        background: url(../../public/images/21.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 1px;
+        position: relative;
+    }
+    
+    #sp3, #sp3a {
+        font-size: 20px;
+        padding-right: 10%;
+        padding-top: 2%;
+        line-height: 35px;
+    }
+
+    #advi1 {
+        width: 25%;
+        top: 30px;
+        left: 60%;
+    }
+}
+
+/* Tablet devices (768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    #Adv3 {
+        width: 100vw;
+        height: 85vh;
+        background: url(../../public/images/21.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 1px;
+        position: relative;
+    }
+    
+    #sp3, #sp3a {
+        font-size: 22px;
+        padding-right: 30%;
+        line-height: 40px;
+    }
+
+    #advi1 {
+        width: 20%;
+        top: 40px;
+        left: 65%;
+    }
+}
+
+/* Laptop devices (1025px to 1440px) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    #Adv3 {
+        width: 100vw;
+        height: 85vh;
+        background: url(../../public/images/21.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 1px;
+        position: relative;
+    }
+    
+    #sp3, #sp3a {
+        font-size: 25px;
+        padding-right: 25%;
+        line-height: 45px;
+    }
+
+    #advi1 {
+        width: 15%;
+        top: 50px;
+        left: 70%;
+    }
+}
+
+/* Desktop devices (1441px to 1920px) */
+/* @media (min-width: 1441px) and (max-width: 1920px) {
+    #Adv3 {
+        width: 100vw;
+        height: 85vh;
+        background: url(../../public/images/21.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 1px;
+        position: relative;
+    }
+    
+    #sp3, #sp3a {
+        font-size: 25px;
+        padding-right: 20%;
+        line-height: 45px;
+    }
+
+    #advi1 {
+        width: 15%;
+        top: 50px;
+        left: 70%;
+    }
+} */
+
+/* TV screens (above 1921px) */
+@media (min-width: 1921px) {
+    #Adv3 {
+        width: 100vw;
+        height: 85vh;
+        background: url(../../public/images/21.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 1px;
+        position: relative;
+    }
+    
+    #sp3, #sp3a {
+        font-size: 25px;
+        padding-right: 20%;
+        line-height: 45px;
+    }
+
+    #advi1 {
+        width: 15%;
+        top: 50px;
+        left: 70%;
+    }
+}
+

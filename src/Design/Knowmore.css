@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#km {
+    width: 100vw;
+    height: 70vh;
+    background-color: black;
+    margin-top: 1px;
+    position: relative;
+}
+
+#kmi {
+    position: absolute;
+    width: 230px;
+    left: 45px;
+    top: 55px;
+}
+
+#kmd {
+    width: 80vw;
+    height: 82%;
+    /* background-color: aliceblue; */
+    position: absolute;
+    left: 17%;
+    top: 9%;
+    border: none;
+    border: 1px solid white;
+    border-radius: 25px;
+    box-shadow: 0px 0px 15px white;
+}
+
+#kmdh1 {
+    font-size: 45px;
+    color: white;
+    font-family: 'Garamond', 'Georgia', 'Times New Roman', serif;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+#kmdh3 {
+    font-size: 25px;
+    font-family: 'Garamond', 'Georgia', 'Times New Roman', serif;
+    color: white;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    text-align: justify;
+    line-height:45px;
+    text-indent: 75px;
+
+}
+
+
+/* Mobile styles */
+@media (max-width: 480px) {
+    #km {
+        height: 60vh;
+    }
+
+    #kmi {
+        width: 150px;
+        left: 20px;
+        top: 30px;
+    }
+
+    #kmd {
+        width: 90vw;
+        left: 5%;
+    }
+
+    #kmdh1 {
+        font-size: 30px;
+    }
+
+    #kmdh3 {
+        font-size: 18px;
+        line-height: 30px;
+        text-indent: 30px;
+    }
+}
+
+/* Tablet styles */
+@media (min-width: 481px) and (max-width: 768px) {
+    #km {
+        height: 65vh;
+    }
+
+    #kmi {
+        width: 200px;
+        left: 30px;
+        top: 40px;
+    }
+
+    #kmd {
+        width: 85vw;
+        left: 10%;
+    }
+
+    #kmdh1 {
+        font-size: 35px;
+    }
+
+    #kmdh3 {
+        font-size: 20px;
+        line-height: 40px;
+        text-indent: 50px;
+    }
+}
+
+/* Laptop styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+    #km {
+        height: 70vh;
+    }
+
+    #kmi {
+        width: 230px;
+        left: 45px;
+        top: 55px;
+    }
+
+    #kmd {
+        width: 80vw;
+        left: 17%;
+    }
+
+    #kmdh1 {
+        font-size: 40px;
+    }
+
+    #kmdh3 {
+        font-size: 22px;
+        line-height: 45px;
+        text-indent: 60px;
+    }
+}
+
